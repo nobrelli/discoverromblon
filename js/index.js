@@ -1,6 +1,11 @@
 // Discover Romblon by Ryu
 
 (function($) {
+	$(window).on('load', function() {
+		// When the document has finished loading, hide the preloader
+		$('#preloader').fadeOut();
+	});
+	
 	$('#searchbox input').focus(function() {
 		$('#searchbox').addClass('active');	
 	}).blur(function() {
