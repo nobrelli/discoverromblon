@@ -1,0 +1,108 @@
+@media all and (max-width: 1500px) {
+	.blog-content {
+		margin-left: calc(30vw/2);
+		margin-right: calc(30vw/2);
+	}
+}
+
+@media all and (max-width: 1100px) {
+	#collapsible-side-menu {
+		width: 100%;
+	}
+
+	#social-networks ul li i {
+		font-size: 1.5em;
+	}
+	
+	#discover .parallax-heading h1 {
+		font-size: 20vw;
+	}
+
+	#urban .parallax-heading h1 {
+	    font-size: 12vw;
+	    margin: 0 30px;
+	}
+
+	#showcase-title h1 {
+		font-size: 20vw;
+	}
+
+	#showcase-title h3 {
+		font-size: 6vw;
+	}
+
+	#marble .parallax-heading h1 {
+		font-size: 16vw;
+	}
+
+	#discovernow .quote-attribution-img {
+		top: -75px;
+	}
+
+	#discovernow blockquote {
+		font-size: 230%;
+	}
+
+	#discovernow .quote-container {
+		width: 85%;
+		padding: 85px 35px 35px;
+	}
+
+	#discovernow blockquote:before {	
+		font-size: 115px;	
+		right: 20px;	
+		top: 22px;
+	}
+
+	#mapoverlay-heading h1 {
+		font-size: 22vw;
+	}
+
+	#mapoverlay-heading h3 {
+		font-size: 9vw;
+	}
+
+	#about .parallax-heading h1 {
+		font-size: 20vw;
+	}
+
+	#about .parallax-heading h3 {
+		font-size: 6vw;
+	}
+}
+
+@media all and (max-width: 990px) {
+	#home div:last-child {
+		display: none;
+	}
+}
+
+@media all and (max-width: 430px) {
+	#discovernow blockquote {
+		font-size: 145%;
+	}
+
+	#discovernow .quote-attribution-img {
+		top: -55px;
+	}
+
+	#discovernow .quote-attribution-img img {
+		max-width: 7em;
+	}
+
+	#discovernow .quote-container {
+		padding: 70px 35px 35px;
+	}
+
+	#discovernow blockquote:before {
+		top: 10px;
+	}
+
+	.blog-heading h1 {
+		font-size: 13vw;
+	}
+
+	.blog-details p {
+		font-size: 5vw;
+	}
+}
